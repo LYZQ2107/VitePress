@@ -42,13 +42,13 @@ features:
   - icon: https://s21.ax1x.com/2024/10/05/pA8GfNn.png
     title: 星渊基石
     details: 全球领先的云服务提供商。
-    link:https://idc.ooteam.top  
+    link: https://idc.ooteam.top  
     linkText: 点击前往
 
   - icon: https://s21.ax1x.com/2024/10/05/pA8Ghhq.png
     title: Nemo服务器
     details: 1.20.4高版本纯净生存服，7950X物理机强力驱动。
-    link:http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=DPc0fRh1VfewC9_FSGMzpvQZMyBYUxoc&authKey=rZYDhf%2FtmBN40pe1LG%2BtKEVlsiQGgGpNvY9hB36W4vZw4Q4u%2Fw%2BSyt6ieDk%2FoaA7&noverify=0&group_code=975998484   
+    link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=DPc0fRh1VfewC9_FSGMzpvQZMyBYUxoc&authKey=rZYDhf%2FtmBN40pe1LG%2BtKEVlsiQGgGpNvY9hB36W4vZw4Q4u%2Fw%2BSyt6ieDk%2FoaA7&noverify=0&group_code=975998484   
     linkText: 加入服务器审核群
 ---
 <style>
