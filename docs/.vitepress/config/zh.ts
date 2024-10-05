@@ -9,8 +9,19 @@ export const zh = defineConfig({
   description: '由 Vite 和 Vue 驱动的静态站点生成器',
 
   themeConfig: {
-    nav: nav(),
+    nav: [
+      { text: '导航', link: '/guide' },
+      {
+        text: '友情链接',
+        items: [
+          { text: '星渊基石', link: 'https://idc.oteam.top' },
+          { text: '服务器状态监测', link: 'https://bj-xq27.oteam.top' }
+        ]
+      }
+    ]
 
+    siteTitle: '测试标题',
+    
     sidebar: {
       '/zh/guide/': { base: '/zh/guide/', items: sidebarGuide() },
       '/zh/reference/': { base: '/zh/reference/', items: sidebarReference() }
