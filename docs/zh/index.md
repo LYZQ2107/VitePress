@@ -39,13 +39,13 @@ features:
     title: 速度真的很快！
     details: 采用静态 HTML 实现快速的页面初次加载，使用客户端路由实现快速的页面切换导航。
     
-- icon:<a href="https://imgse.com/i/pA8GfNn"><img src="https://s21.ax1x.com/2024/10/05/pA8GfNn.png" alt="pA8GfNn.png" border="0" /></a>
+  - icon:<a href="https://imgse.com/i/pA8GfNn"><img src="https://s21.ax1x.com/2024/10/05/pA8GfNn.png" alt="pA8GfNn.png" border="0" /></a>
     title: 星渊基石
     details: 全球领先的云服务提供商。
     link:https://idc.ooteam.top  
     linkText: 点击前往
 
-- icon: <a href="https://imgse.com/i/pA8Ghhq"><img src="https://s21.ax1x.com/2024/10/05/pA8Ghhq.png" alt="pA8Ghhq.png" border="0" /></a>
+  - icon: <a href="https://imgse.com/i/pA8Ghhq"><img src="https://s21.ax1x.com/2024/10/05/pA8Ghhq.png" alt="pA8Ghhq.png" border="0" /></a>
     title: Nemo服务器
     details: 1.20.4高版本纯净生存服，7950X物理机强力驱动。
     link:http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=DPc0fRh1VfewC9_FSGMzpvQZMyBYUxoc&authKey=rZYDhf%2FtmBN40pe1LG%2BtKEVlsiQGgGpNvY9hB36W4vZw4Q4u%2Fw%2BSyt6ieDk%2FoaA7&noverify=0&group_code=975998484   
