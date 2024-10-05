@@ -45,7 +45,7 @@ features:
     link: https://idc.oteam.top  
     linkText: 点击前往
 
-    - icon: <img src="https://s21.ax1x.com/2024/10/05/pA8Ghhq.png" alt="Alt text">
+  - icon: <img src="https://s21.ax1x.com/2024/10/05/pA8Ghhq.png" alt="Alt text">
     title: Nemo服务器
     details: 1.20.4高版本纯净生存服，7950X物理机强力驱动。
     link: https://qm.qq.com/q/PeQtKt4P8k 
