@@ -18,7 +18,7 @@ export const zh = defineConfig({
           { text: '服务器状态监测', link: 'https://bj-xq27.oteam.top' }
         ]
       }
-    ]
+    ],
 
     siteTitle: '测试标题',
     
