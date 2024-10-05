@@ -1,27 +1,88 @@
-# VitePress 📝💨
+# vitepress-nav-template
 
-[![test](https://github.com/vuejs/vitepress/workflows/Test/badge.svg)](https://github.com/vuejs/vitepress/actions)
-[![npm](https://img.shields.io/npm/v/vitepress)](https://www.npmjs.com/package/vitepress)
-[![chat](https://img.shields.io/badge/chat-discord-blue?logo=discord)](https://chat.vuejs.org)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/maomao1996/picture/main/vitepress-nav-template/home.webp" alt="home" />
+</p>
+<p align="center"> 基于 <b>VitePress</b> 的个人前端导航页面模板 </p>
+<p align='center'><a href="/guide.md">基础教程</a> | <a href="https://notes.fe-mm.com/">作者博客</a></p>
 
 ---
 
-VitePress is a Vue-powered static site generator and a spiritual successor to [VuePress](https://vuepress.vuejs.org), built on top of [Vite](https://github.com/vitejs/vite).
+## 预览地址
 
-## Documentation
+- <https://fe-nav.netlify.app/nav/>
+- <https://maomao1996.github.io/vitepress-nav-template/nav/>
 
-To check out docs, visit [vitepress.dev](https://vitepress.dev).
+## 功能
 
-## Changelog
+- 新增 `layout-class` 方便更好的自定义样式
+- 默认中文
+- 自带前端导航模块
+- 支持访客统计
+- 支持 [giscus 评论](https://giscus.app/zh-CN)
+- 支持日夜颜色模式自适应切换
+- 支持 Github Pages 直接部署上线
+  - 1. 开启 github actions
+  - 2. 配置 Pages 为 `gh-pages` 分支
+  - 3. 访问地址为 `https://<username>.github.io/<repository>/`
+- 支持 [tailwindcss](https://github.com/tailwindlabs/tailwindcss)
+- 支持查看 vue 示例组件源码（使用 [vite-plugin-markdown-preview](https://github.com/jaskang/vite-plugin-markdown-preview)）
 
-Detailed changes for each release are documented in the [CHANGELOG](https://github.com/vuejs/vitepress/blob/main/CHANGELOG.md).
+### 开启访客统计
 
-## Contribution
+需在 `docs/.vitepress/config.ts` 中配置 `themeConfig.visitor`
 
-Please make sure to read the [Contributing Guide](https://github.com/vuejs/vitepress/blob/main/.github/contributing.md) before making a pull request.
+```ts
+export default defineConfig({
+  themeConfig: {
+    /* 访客统计 */
+    visitor: {
+      /** 统计 id（单独页面的统计会作为前缀使用）*/
+      badgeId: 'maomao1996.vitepress-nav-template',
+    },
+  },
+})
+```
 
-## License
+### 开启 giscus 评论
 
-[MIT](https://github.com/vuejs/vitepress/blob/main/LICENSE)
+需在 `docs/.vitepress/config.ts` 中配置 `themeConfig.comment`
 
-Copyright (c) 2019-present, Yuxi (Evan) You
+```ts
+export default defineConfig({
+  themeConfig: {
+    /**
+     * giscus 评论配置
+     *  请根据 https://giscus.app/zh-CN 生成内容填写
+     */
+    comment: {
+      /** github 仓库地址 */
+      repo: '',
+      /** giscus 仓库 ID */
+      repoId: '',
+      /** Discussion 分类 */
+      category: '',
+      /** giscus 分类 ID */
+      categoryId: '',
+    },
+  },
+})
+```
+
+#### 在指定页面关闭评论
+
+需在指定页面的 `markdown` 文件中添加如下 `frontmatter` 配置
+
+```md
+---
+comment: false
+---
+
+# 功能测试页
+```
+
+docs: 更新 README
+
+## 说明
+
+前端导航模块由 [茂茂 | maomao](https://github.com/maomao1996) 开发，如有引用、借鉴的请保留版权声明：<https://github.com/maomao1996/vitepress-nav-template>
