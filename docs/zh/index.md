@@ -39,7 +39,7 @@ features:
     title: 速度真的很快！
     details: 采用静态 HTML 实现快速的页面初次加载，使用客户端路由实现快速的页面切换导航。
     
-  - icon:https://s21.ax1x.com/2024/10/05/pA8GfNn.png
+  - icon: https://s21.ax1x.com/2024/10/05/pA8GfNn.png
     title: 星渊基石
     details: 全球领先的云服务提供商。
     link:https://idc.ooteam.top  
