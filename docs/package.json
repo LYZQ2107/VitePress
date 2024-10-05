@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
     "preview": "vitepress preview",
     "lunaria:build": "lunaria build",
     "lunaria:open": "open-cli .vitepress/dist/_translations/index.html"
