@@ -5,11 +5,9 @@
   "description": "基于 VitePress 打造个人前端导航网站",
   "private": true,
   "scripts": {
-    "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
-    "preview": "vitepress preview docs",
-    "prepare": "husky install",
-    "format": "prettier --write ."
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "repository": {
     "type": "git",
