@@ -2,7 +2,6 @@ import type { DefaultTheme } from 'vitepress'
 
 export const nav: DefaultTheme.Config['nav'] = [
   { text: '导航', link: '/nav' },
-  { text: '自定义导航', link: '/nav' },
   {
     text: '友情链接',
     items: [
@@ -10,4 +9,4 @@ export const nav: DefaultTheme.Config['nav'] = [
       { text: '服务器状态监测', link: 'https://bj-xq27.oteam.top' }
     ]
   }
-],
+]
