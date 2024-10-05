@@ -1,14 +1,23 @@
 {
   "compilerOptions": {
-    "outDir": "dist",
-    "target": "esnext",
     "module": "esnext",
-    "moduleResolution": "node",
+    "target": "esnext",
+    "moduleResolution": "bundler",
     "esModuleInterop": true,
-    "resolveJsonModule": true,
-    "allowJs": true,
     "strict": true,
-    "jsx": "preserve"
+    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    "resolveJsonModule": true,
+    "verbatimModuleSyntax": true,
+    "jsx": "preserve",
+    "lib": ["esnext", "dom", "dom.iterable"]
   },
-  "include": ["env.d.ts", "**/.vitepress/**/*"]
+  "exclude": [
+    "**/node_modules/**",
+    "**/dist/**",
+    "template",
+    "bin",
+    "docs/snippets",
+    "scripts"
+  ]
 }
