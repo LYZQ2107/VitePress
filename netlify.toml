@@ -2,5 +2,5 @@
   NODE_VERSION = "20"
 
 [build]
-  publish = "docs/.vitepress/dist"
-  command = "pnpm docs:build && pnpm docs:lunaria:build"
+  publish = "dist"
+  command = "pnpm build"
