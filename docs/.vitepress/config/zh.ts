@@ -11,6 +11,7 @@ export const zh = defineConfig({
   themeConfig: {
     nav: [
       { text: '导航', link: '/guide' },
+      { text: '自定义导航', link: '/nav' },
       {
         text: '友情链接',
         items: [
